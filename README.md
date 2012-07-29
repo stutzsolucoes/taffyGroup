@@ -1,4 +1,4 @@
 taffyGroup
 ==========
 
-Group clause extension for TaffyDB
+A "GROUP BY" clause extension for TaffyDB.

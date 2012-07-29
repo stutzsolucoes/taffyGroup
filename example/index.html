@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="taffy.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="../taffy.extend.group.js"></script>
+        <script>
+            var db = TAFFY([{name:"New York",state:"WA",nation:"USA"},
+                                {name:"Las Vegas",state:"NV",nation:"USA"},
+                                {name:"Boston",state:"WA",nation:"USA"},
+                                {name:"Denver",state:"CO",nation:"USA"},
+                                {name:"Phoenix",state:"AR",nation:"USA"},
+                                {name:"San Antonio",state:"TX",nation:"USA"},
+                                {name:"Dallas",state:"TX",nation:"USA"},
+                                {name:"Houston",state:"TX",nation:"USA"},
+                                {name:"Orlando",state:"FL",nation:"USA"},
+                                {name:"New Orleans",state:"LA",nation:"USA"},
+                                {name:"Seattle",state:"WA",nation:"USA"}]);
+            var result = db().group("nation","state");
+            $(document).ready(function(){
+                var i, size = result.length;
+                for(i=0;i<size;i++){
+                    $("#result").append("<li>"+JSON.stringify(result[i])+"</li>");
+                }
+                //$('#result').text(JSON.stringify(result));
+            });
+        </script>
+    </head>
+    <body>
+        <ul id="result"></ul>
+    </body>
+</html>

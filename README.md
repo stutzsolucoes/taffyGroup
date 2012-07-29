@@ -69,3 +69,7 @@ Then we will get result likes this:
 {"group":["USA","FL"],"result":[{"name":"Orlando","state":"FL","nation":"USA","___id":"T000003R000010","___s":true}],"count":1},
 {"group":["USA","LA"],"result":[{"name":"New Orleans","state":"LA","nation":"USA","___id":"T000003R000011","___s":true}],"count":1}]
 ```
+
+##My Blog
+
+If you have any question or suggestion, welcome to [my blog]: http://aio1108.pixnet.net/blog 

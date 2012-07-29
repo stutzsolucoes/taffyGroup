@@ -19,6 +19,6 @@ Just pass the column names that you want to group by.
 This extension method will return an array that contains group results.
 Each group result have properties below:
 
-- group:
-- result:
-- count:
+- group : 
+- result : An array that contains records match「group」property.
+- count : The length of the array in「result」property.

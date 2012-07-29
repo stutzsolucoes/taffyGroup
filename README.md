@@ -27,3 +27,5 @@ Each group result have properties below:
 Actually group result will looks like below:
 
 `{"group":["USA","LA"],"result":[{"name":"New Orleans","state":"LA","nation":"USA","___id":"T000003R000011","___s":true}],"count":1}`
+
+##Example

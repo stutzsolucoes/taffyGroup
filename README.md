@@ -72,4 +72,4 @@ Then we will get result likes this:
 
 ##My Blog
 
-If you have any question or suggestion, welcome to [my blog]: http://aio1108.pixnet.net/blog 
+If you have any question or suggestion, welcome to my blog: http://aio1108.pixnet.net/blog 

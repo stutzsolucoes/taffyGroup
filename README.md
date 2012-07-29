@@ -17,8 +17,9 @@ Just pass the column names that you want to group by.
 ##Result Format
 
 This extension method will return an array that contains group results.
+
 Each group result have properties below:
 
-- group : 
-- result : An array that contains records match「group」property.
+- group : An array contains values of「GROUP BY」columns.
+- result : An array contains records that match「group」property.
 - count : The length of the array in「result」property.

@@ -13,3 +13,12 @@ A "GROUP BY" clause extension for TaffyDB.
 Just pass the column names that you want to group by.
 
 `db().group('nation','state');`
+
+##Result Format
+
+This extension method will return an array that contains group results.
+Each group result have properties below:
+
+- group:
+- result:
+- count:

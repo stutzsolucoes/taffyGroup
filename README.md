@@ -24,9 +24,9 @@ This extension method will return an array that contains group results.
 
 Each group result have below properties:
 
-- group : An array contains values of「GROUP BY」columns.
-- result : An array contains records that match「group」property.
-- count : The length of the array in「result」property.
+- group : An array contains values of "GROUP BY" columns.
+- result : An array contains records that match "group" property.
+- count : The length of the array in "result" property.
 
 Actually group result will looks like below:
 
@@ -36,7 +36,7 @@ Actually group result will looks like below:
 
 ##Example
 
-If we have data likes below:
+If we have records likes below:
 
 ```javascript
 var db = TAFFY([{name:"New York",state:"WA",nation:"USA"},
@@ -50,4 +50,10 @@ var db = TAFFY([{name:"New York",state:"WA",nation:"USA"},
                 {name:"Orlando",state:"FL",nation:"USA"},
                 {name:"New Orleans",state:"LA",nation:"USA"},
                 {name:"Seattle",state:"WA",nation:"USA"}]);
+```
+
+Then we want to group these records by "nation" and "state" columns.
+
+```javascript
+var result = db().group("nation","state");
 ```

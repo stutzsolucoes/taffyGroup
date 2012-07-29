@@ -32,7 +32,7 @@ Actually group result will looks like below:
 
 If we have data like below:
 
-var db = TAFFY([{name:"New York",state:"WA",nation:"USA"},
+`var db = TAFFY([{name:"New York",state:"WA",nation:"USA"},
                 {name:"Las Vegas",state:"NV",nation:"USA"},
                 {name:"Boston",state:"WA",nation:"USA"},
                 {name:"Denver",state:"CO",nation:"USA"},
@@ -42,4 +42,4 @@ var db = TAFFY([{name:"New York",state:"WA",nation:"USA"},
                 {name:"Houston",state:"TX",nation:"USA"},
                 {name:"Orlando",state:"FL",nation:"USA"},
                 {name:"New Orleans",state:"LA",nation:"USA"},
-                {name:"Seattle",state:"WA",nation:"USA"}]);
+                {name:"Seattle",state:"WA",nation:"USA"}]);`

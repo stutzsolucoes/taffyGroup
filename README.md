@@ -29,3 +29,17 @@ Actually group result will looks like below:
 `{"group":["USA","LA"],"result":[{"name":"New Orleans","state":"LA","nation":"USA","___id":"T000003R000011","___s":true}],"count":1}`
 
 ##Example
+
+If we have data like below:
+
+var db = TAFFY([{name:"New York",state:"WA",nation:"USA"},
+                {name:"Las Vegas",state:"NV",nation:"USA"},
+                {name:"Boston",state:"WA",nation:"USA"},
+                {name:"Denver",state:"CO",nation:"USA"},
+                {name:"Phoenix",state:"AR",nation:"USA"},
+                {name:"San Antonio",state:"TX",nation:"USA"},
+                {name:"Dallas",state:"TX",nation:"USA"},
+                {name:"Houston",state:"TX",nation:"USA"},
+                {name:"Orlando",state:"FL",nation:"USA"},
+                {name:"New Orleans",state:"LA",nation:"USA"},
+                {name:"Seattle",state:"WA",nation:"USA"}]);

@@ -22,7 +22,7 @@ db().group('nation','state');
 
 This extension method will return an array that contains group results.
 
-Each group result have properties below:
+Each group result have below properties:
 
 - group : An array contains values of「GROUP BY」columns.
 - result : An array contains records that match「group」property.
@@ -36,7 +36,7 @@ Actually group result will looks like below:
 
 ##Example
 
-If we have data like below:
+If we have data likes below:
 
 ```javascript
 var db = TAFFY([{name:"New York",state:"WA",nation:"USA"},
